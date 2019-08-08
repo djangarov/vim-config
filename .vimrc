@@ -10,6 +10,7 @@ set nu
 set hlsearch
 set incsearch
 set complete=.,w,b,u
+let g:better_whitespace_enabled=1
 
 "-------------NERDTree Settings--------------"
 map <C-b> :NERDTreeToggle<CR>

@@ -12,6 +12,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ntpeters/vim-better-whitespace'
 
 " Optional
 
