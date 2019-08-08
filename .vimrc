@@ -10,6 +10,7 @@ set hlsearch
 set incsearch
 set splitbelow
 set splitright
+set complete=.,w,b,u
 
 augroup autosourcing
 	autocmd!
