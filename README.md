@@ -2,6 +2,6 @@
 
 Windows Symlinks
 
-mklink /J .vimrc vim-confi\.vimrc
+  mklink /J .vimrc vim-confi\.vimrc
 
-mklink /J .vim vim-confi\.vim
+  mklink /J .vim vim-confi\.vim
