@@ -1,0 +1,18 @@
+snippet php
+	<?php ${1} ?>
+
+snippet debug
+	echo '<pre style=\"background: #fff; color: #000;\">';
+	var_dump($1);
+	echo '</pre>';
+	exit();
+
+snippet wp_login
+	if (!is_user_logged_in()) {
+		\$admins = get_users(array('role'=>'administrator'));
+		wp_set_auth_cookie(\$admins[0]->ID, true);
+		wp_redirect( admin_url() );
+		exit;
+	} else {
+		exit(\"Remove login snippet in \" . __FILE__ . \" at line \" . (__LINE__ - 4));
+	}
