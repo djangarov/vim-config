@@ -21,10 +21,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "-------------Split Settings--------------"
 set splitbelow
 set splitright
-nmap <C-Down> <C-W><C-J>
-nmap <C-Up> <C-W><C-K>
-nmap <C-Left> <C-W><C-H>
-nmap <C-Right> <C-W><C-L>
+nmap <A-Down> <C-W><C-J>
+nmap <A-Up> <C-W><C-K>
+nmap <A-Left> <C-W><C-H>
+nmap <A-Right> <C-W><C-L>
 
 "-------------Auto-Commands--------------"
 "Automatically source the Vimrc file on save.
