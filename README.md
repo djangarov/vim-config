@@ -9,7 +9,9 @@ Windows Symlinks:
 Unix Symlinks:
   
   `ln -s ~/.vimrc vim-config/.vimrc`
+
   `ln -s ~/.vim vim-config/.vim`
   
 git submodule update --init --recursive
+
 vim +PluginInstall +qall
