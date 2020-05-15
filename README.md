@@ -12,6 +12,8 @@ Unix Symlinks:
 
   `ln -s vim-config/.vim ~/.vim`
   
+`cd vim-config`
+  
 `git submodule update --init --recursive`
 
 `vim +PluginInstall +qall`
