@@ -32,3 +32,6 @@ augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %
 augroup END
+
+"-------------Legacy SnipMate fix--------------"
+let g:snipMate = { 'snippet_version' : 1 }
